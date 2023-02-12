@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "yarn ts-node -r dotenv/config -r sucrase/register ./src/index.ts",
+  "__": "yarn ts-node ./src/index.ts"
+}
